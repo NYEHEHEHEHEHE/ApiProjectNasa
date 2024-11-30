@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Space-themed background */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, #1a1a3f, #0a0a23);
+            z-index: -1;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                        radial-gradient(circle at 80% 40%, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                        radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                        radial-gradient(circle at 70% 90%, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
+            background-size: 150px 150px;
+            z-index: -1;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        p, ul {
+            max-width: 600px;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "✨ ";
+        }
+    </style>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hi! My name is Pei Xi 👉👈UwU and I'm a first year student learning web development. This is my very first project!</p>
+    <h2 id="h2">About This Website</h2>
+    <p>This website explores space-related topics using NASA's APIs. You'll find:</p>
+    <ul>
+        <li>NASA's Astronomy Picture of the Day (APOD) with a description.</li>
+        <li>Images taken by Mars rovers during their missions.</li>
+        <li>Weather data from Mars, straight from NASA's Mars Weather API.</li>
+    </ul>
+    <p>Thank you for visiting, and I hope you enjoy exploring space with me!</p>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Same as before */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #001327;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+header{
+    background-color: #2d03b7;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+h1{
+    color: #ffffff;
+    margin: 10px;
+}
+#a1{
+    background-color: #2d03b7;
+    color: #f8f5f5;
+    word-spacing: normal;
+    text-align: center;
+}
+
+
+section
+{
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:  #043a9d;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #e0aaff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #c77dff;
+}
+
+#apod-img, .mars-img{
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#apod-description{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+#mars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mars-img {
+    width: 45%;
+    margin: 10px;
+}
+
+#mars-weather-section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:  #043a9d;
+    border-radius: 10px;
+}
+
+#mars-weather-container p {
+    font-size: 18px;
+    color: #f0f0f0;
+}
+body {
+    background-image: url("https://plus.unsplash.com/premium_photo-1663047540698-12e93c082dda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
+  

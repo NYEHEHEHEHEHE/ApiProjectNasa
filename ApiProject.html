@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space Explorer</title>
+    <link rel="stylesheet" href="ApiProject.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.7.7/dist/axios.min.js"></script>
+    
+</head>
+<body>
+    <header>
+    <a href="https://www.nasa.gov/" target ="_blank" title="teleports you to NASA home page :3">
+        <h1>NASA Space Explorer</h1>
+    </a>
+    <a id="a1" href="mars project/aboutMe.html" target ="_blank" title="teleports you to description of this site :3">about me</a>
+    <a id="a1" href="mailto:bigbyme@gmail.com" title="or just gmail me at bigbyme@gmail.com ">contact me here </a>
+    </header>
+    <main>
+        <section id="apod-section">
+            <h2>Astronomy Picture of the Day</h2>
+            <label for="apod-date">Select a Date:</label>
+            <input type="date" id="apod-date" max="" />
+            <button id="fetch-apod">Get Picture</button>
+            <div id="apod-container">
+                <img id="apod-img" src="" alt="NASA Astronomy Picture of the Day">
+                <p id="apod-description"></p>
+            </div>
+        </section>
+
+        <section id="mars-section">
+            <h2>Mars Rover Photos</h2>
+            <label for="mars-date">Select a Date:</label>
+            <input type="date" id="mars-date" min="2012-08-06" max="" />
+            <button id="fetch-mars">Get Mars Rover Photos</button>
+            <div id="mars-container"></div>
+        </section>
+        
+        <section id="mars-weather-section">
+            <h2>Mars Weather Report</h2>
+            <button id="fetch-mars-weather">Get Mars Weather</button>
+            <div id="mars-weather-container">
+                <p id="mars-weather-description">Click the button to fetch the latest Mars weather data!</p>
+            </div>
+        </section>
+        
+        <a href="mailto :bigbyme@gmail.com">
+            Click to email me 
+        </a>
+    </main>
+    <script src="ApiProject.js"></script>
+</body>
+</html>
